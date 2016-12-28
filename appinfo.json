@@ -3,8 +3,8 @@
     "capabilities": [
         "location"
     ],
-    "companyName": "Zsolt Varadi",
-    "longName": "PebFUT\u00c1R",
+    "companyName": "Attila Tokaji",
+    "longName": "PebFUT\u00c1R-NG",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -57,10 +57,13 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "PebFUT\u00c1R",
-    "uuid": "b2c43b45-87fa-41a8-b95f-150e737a6981",
+    "shortName": "PebFUT\u00c1R-NG",
+    "targetPlatforms": [
+        "aplite"
+    ],
+    "uuid": "b427d4df-371f-40e3-a754-269aa80e3a7b",
     "versionCode": 1,
-    "versionLabel": "1.4",
+    "versionLabel": "1.5",
     "watchapp": {
         "hiddenApp": false,
         "watchface": false
