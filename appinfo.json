@@ -11,17 +11,17 @@
             {
                 "file": "images/menu_icon.png",
                 "name": "IMAGE_MENU_ICON",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/logo_splash.png",
                 "name": "IMAGE_LOGO_SPLASH",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/tile_splash.png",
                 "name": "IMAGE_TILE_SPLASH",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "fonts/UbuntuMono-Regular.ttf",
@@ -29,8 +29,9 @@
                 "type": "font"
             },
             {
-                "file": "images/action_info.png",
-                "name": "IMAGES_ACTION_INFO_PNG",
+                "file": "images/menu-icon.png",
+                "menuIcon": true,
+                "name": "IMAGES_MENU_ICON_PNG",
                 "type": "png"
             },
             {
@@ -39,19 +40,18 @@
                 "type": "png"
             },
             {
-                "file": "images/action_fav.png",
-                "name": "IMAGES_ACTION_FAV_PNG",
-                "type": "png"
-            },
-            {
                 "file": "images/action_refresh.png",
                 "name": "IMAGES_ACTION_REFRESH_PNG",
                 "type": "png"
             },
             {
-                "file": "images/menu-icon.png",
-                "menuIcon": true,
-                "name": "IMAGES_MENU_ICON_PNG",
+                "file": "images/action_info.png",
+                "name": "IMAGES_ACTION_INFO_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/action_fav.png",
+                "name": "IMAGES_ACTION_FAV_PNG",
                 "type": "png"
             }
         ]
@@ -62,6 +62,7 @@
     "versionCode": 1,
     "versionLabel": "1.4",
     "watchapp": {
+        "hiddenApp": false,
         "watchface": false
     }
 }
